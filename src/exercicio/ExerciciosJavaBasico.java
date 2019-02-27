@@ -25,6 +25,17 @@ public class ExerciciosJavaBasico {
        
         PrimeiraPosicao.pegarposicao(lista);
         
+        //////////////////////////////////////////////////////////
+        
+        /*
+         * Escreva um método que receba por parâmetro um array de inteiros e
+         * retorne todos os números pares armazenados no array.
+         */
+        
+        MostrarVetor.todoVetor(lista);
+        
+        
+        ////////////////////////////////////////////////////////
         
        VerificaVogal confira = new VerificaVogal();
        
