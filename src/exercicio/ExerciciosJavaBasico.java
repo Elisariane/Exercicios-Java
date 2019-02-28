@@ -47,6 +47,31 @@ public class ExerciciosJavaBasico {
         //System.out.println(confira.listaVogal);
         System.out.println(result);
         
+        ///////////////////////////////////////////////////////////
+        ArrayList <String> listaNomes = new ArraList <String>();
+        
+        int escolha;
+        String nome;
+        
+        Scanner entrada = new Scanner (System.in);
+    	do{
+    		System.out.println("1- Adcionar nome na lista.");
+    		System.out.println("2- Ver lista ordenada.");
+    		System.out.println("0 - Sair...");
+    		System.out.println("Digite sua escolha: ");
+    		Scanner entrada = new Scanner (System.in);
+    		escolha = entrada.nextInt();
+    		  		
+    		
+    		if(escolha == 1){
+    			System.out.println("Digite o nome: ");
+    			    			
+    			listaNome.add(nome = entrada.nextLine());
+    		}
+    		
+    	}while();
+
+    }
         
 	}
 
