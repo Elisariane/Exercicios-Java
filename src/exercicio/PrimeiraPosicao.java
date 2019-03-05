@@ -8,7 +8,7 @@ public class PrimeiraPosicao {
 	     * o númeroarmazenado na primeira posição do array.
 	     */
 	    public static void pegarposicao(int[] lista) {
-	       
+	       //Mostrar a primeira posição da lista
 	    	System.out.println(lista[0]);
 	    	//return lista[0];
 	       
